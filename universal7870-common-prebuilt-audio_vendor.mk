@@ -14,19 +14,17 @@
 
 # Prebuilt Audio blobs for some devices that dont support OSS audio yet.
 PRODUCT_COPY_FILES += \
-        vendor/samsung/universal7870-common/proprietary/vendor/lib/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvverx.so \
-	vendor/samsung/universal7870-common/proprietary/vendor/lib/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvvetx.so \
-	vendor/samsung/universal7870-common/proprietary/vendor/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so \
-	vendor/samsung/universal7870-common/proprietary/vendor/lib/lib_SamsungRec_06006.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_06006.so \
-	vendor/samsung/universal7870-common/proprietary/vendor/lib/lib_SoundAlive_SRC384_ver320.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC384_ver320.so \
-	vendor/samsung/universal7870-common/proprietary/vendor/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
-	vendor/samsung/universal7870-common/proprietary/vendor/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so \
- 	vendor/samsung/universal7870-common/proprietary/vendor/lib/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute.so \
-        vendor/samsung/universal7870-common/proprietary/vendor/lib/libpreprocessing_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpreprocessing_nxp.so \
-	vendor/samsung/universal7870-common/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
-	vendor/samsung/universal7870-common/proprietary/vendor/lib/libsamsungDiamondVoice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungDiamondVoice.so \
-	vendor/samsung/universal7870-common/proprietary/vendor/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudioinfo.so \
-	vendor/samsung/universal7870-common/proprietary/vendor/lib/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa.so \
-	vendor/samsung/universal7870-common/proprietary/vendor/lib/hw/audio.primary.universal7870.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.universal7870.so \
-	vendor/samsung/universal7870-common/proprietary/vendor/etc/Tfa9896.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/Tfa9896.cnt \
-        vendor/samsung/universal7870-common/proprietary/vendor/lib/libtfa98xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtfa98xx.so
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so \
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute.so \
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvverx.so \
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvvetx.so \
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/libpreprocessing_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpreprocessing_nxp.so \
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/libsamsungDiamondVoice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungDiamondVoice.so \
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so \
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/lib_SamsungRec_06006.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_06006.so \
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudioinfo.so \
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/lib_SoundAlive_SRC384_ver320.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC384_ver320.so \
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa.so \
+    vendor/samsung/universal7870-common/proprietary/audio/common/lib/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndsecril-client.so 
